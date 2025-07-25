@@ -175,6 +175,44 @@
       animation: fadeInMove 1.05s forwards;
       animation-play-state: paused;
     }
+
+    /* Sample readings */
+    .samples-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.sample-card {
+  flex: 1 1 300px;
+  background: #fffef9;
+  border-left: 5px solid #7c4dff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(124, 77, 255, 0.10);
+  padding: 1.3rem 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+  min-width: 240px;
+  max-width: 355px;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.sample-card:hover {
+  box-shadow: 0 6px 24px rgba(124, 77, 255, 0.19);
+  transform: translateY(-5px) scale(1.025);
+}
+.sample-card h3 {
+  margin-top: 0;
+  color: #7c4dff;
+  font-size: 1.14rem;
+}
+.testimonial-snippet {
+  background: #fce4ec;
+  padding: 0.5rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.98rem;
+  color: #696063;
+  margin-top: 0.7rem;
+  border-left: 4px solid #ffb300;
+}
+
     /* Testimonials */
     .testimonials-flex { display: flex; flex-wrap: wrap; gap: 1.2rem; }
     .testimonial-card {
@@ -414,6 +452,46 @@
         </div>
       </div>
     </section>
+
+    <!-- Sample readings -->
+    <section id="sample-readings">
+  <h2>Sample Readings</h2>
+  <div class="samples-flex">
+    <div class="sample-card fade-in">
+      <h3>Career Guidance: Anjali, Age 27</h3>
+      <p><strong>Question:</strong> “Will a career change benefit me in 2025?”</p>
+      <p>
+        <strong>Summary:</strong> Based on Anjali’s birth chart (Sagittarius ascendant, major Saturn period), the stars indicated this was a promising time to embrace change, especially between March and August 2025. The reading detailed opportunities for higher education and a switch to a management role.
+      </p>
+      <p class="testimonial-snippet">
+        <em>“Your timeline was spot-on. I landed my dream job in May!”</em>
+      </p>
+    </div>
+
+    <div class="sample-card fade-in">
+      <h3>Relationship Clarity: Omkar, Age 35</h3>
+      <p><strong>Question:</strong> “When is my marriage likely to happen?”</p>
+      <p>
+        <strong>Summary:</strong> Omkar’s profile showed Venus strongly placed in the 7th house. The reading forecasted a stable relationship forming between September and December 2024. Remedies for minor delays were also suggested, such as chanting and gemstone therapy.
+      </p>
+      <p class="testimonial-snippet">
+        <em>“I got engaged in October, just as advised. Grateful for your clarity!”</em>
+      </p>
+    </div>
+
+    <div class="sample-card fade-in">
+      <h3>Health & Wellness: Priya, Age 42</h3>
+      <p><strong>Question:</strong> “How can I improve my health this year?”</p>
+      <p>
+        <strong>Summary:</strong> Priya’s chart highlighted a challenging Moon period affecting emotional health. The reading provided holistic suggestions, including meditation and changes in diet, alongside a favorable time for recovery during the summer.
+      </p>
+      <p class="testimonial-snippet">
+        <em>“The suggested remedies made a tangible difference. Thank you!”</em>
+      </p>
+    </div>
+  </div>
+</section>
+
 
     <!-- Testimonials Section -->
     <section id="testimonials">
